@@ -1,0 +1,639 @@
+{
+    "fields": [
+        {
+            "name": "Botão - Login",
+            "type": "button",
+            "selector": "button[type=\"submit\"]",
+            "description": "Botão de login",
+            "columns": null
+        },
+        {
+            "name": "Campo de texto - Username",
+            "type": "text_field",
+            "selector": "input[name=\"username\"]",
+            "description": "Campo de texto para nome de usuário",
+            "columns": null
+        },
+        {
+            "name": "Campo de texto - Password",
+            "type": "password_field",
+            "selector": "input[name=\"password\"]",
+            "description": "Campo de texto para senha",
+            "columns": null
+        },
+        {
+            "name": "Link - Forgot your password?",
+            "type": "link",
+            "selector": "p.oxd-text.oxd-text--p.orangehrm-login-forgot-header",
+            "description": "Link para recuperar senha",
+            "columns": null
+        },
+        {
+            "name": "Link - OrangeHRM, Inc",
+            "type": "link",
+            "selector": "a[href=\"http://www.orangehrm.com\"]",
+            "description": "Link para o site da OrangeHRM, Inc",
+            "columns": null
+        },
+        {
+            "name": "Link - LinkedIn",
+            "type": "link",
+            "selector": "a[href=\"https://www.linkedin.com/company/orangehrm\"]",
+            "description": "Link para o LinkedIn da OrangeHRM",
+            "columns": null
+        },
+        {
+            "name": "Link - Facebook",
+            "type": "link",
+            "selector": "a[href=\"https://www.facebook.com/OrangeHRM\"]",
+            "description": "Link para o Facebook da OrangeHRM",
+            "columns": null
+        },
+        {
+            "name": "Link - Twitter",
+            "type": "link",
+            "selector": "a[href=\"https://twitter.com/orangehrm?lang=en\"]",
+            "description": "Link para o Twitter da OrangeHRM",
+            "columns": null
+        },
+        {
+            "name": "Link - YouTube",
+            "type": "link",
+            "selector": "a[href=\"https://www.youtube.com/c/OrangeHRMInc\"]",
+            "description": "Link para o YouTube da OrangeHRM",
+            "columns": null
+        },
+        {
+            "name": "Link - About",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewPersonalDetails/empNumber/7\"]",
+            "description": "Link para a página 'About'",
+            "columns": null
+        },
+        {
+            "name": "Link - Support",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewPersonalDetails/empNumber/7\"]",
+            "description": "Link para a página 'Support'",
+            "columns": null
+        },
+        {
+            "name": "Link - Change Password",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewPersonalDetails/empNumber/7\"]",
+            "description": "Link para a página 'Change Password'",
+            "columns": null
+        },
+        {
+            "name": "Link - Logout",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/auth/logout\"]",
+            "description": "Link para fazer logout",
+            "columns": null
+        },
+        {
+            "name": "Link - Admin",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewAdminModule\"]",
+            "description": "Link para o módulo Admin",
+            "columns": null
+        },
+        {
+            "name": "Link - PIM",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewPimModule\"]",
+            "description": "Link para o módulo PIM",
+            "columns": null
+        },
+        {
+            "name": "Link - Leave",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/leave/viewLeaveModule\"]",
+            "description": "Link para o módulo Leave",
+            "columns": null
+        },
+        {
+            "name": "Link - Time",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/time/viewTimeModule\"]",
+            "description": "Link para o módulo Time",
+            "columns": null
+        },
+        {
+            "name": "Link - Recruitment",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/recruitment/viewRecruitmentModule\"]",
+            "description": "Link para o módulo Recruitment",
+            "columns": null
+        },
+        {
+            "name": "Link - My Info",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewMyDetails\"]",
+            "description": "Link para a página My Info",
+            "columns": null
+        },
+        {
+            "name": "Link - Performance",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/performance/viewPerformanceModule\"]",
+            "description": "Link para o módulo Performance",
+            "columns": null
+        },
+        {
+            "name": "Link - Dashboard",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/dashboard/index\"]",
+            "description": "Link para o Dashboard",
+            "columns": null
+        },
+        {
+            "name": "Link - Directory",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/directory/viewDirectory\"]",
+            "description": "Link para o módulo Directory",
+            "columns": null
+        },
+        {
+            "name": "Link - Maintenance",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/maintenance/viewMaintenanceModule\"]",
+            "description": "Link para o módulo Maintenance",
+            "columns": null
+        },
+        {
+            "name": "Link - Claim",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/claim/viewClaimModule\"]",
+            "description": "Link para o módulo Claim",
+            "columns": null
+        },
+        {
+            "name": "Link - Buzz",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/buzz/viewBuzz\"]",
+            "description": "Link para o módulo Buzz",
+            "columns": null
+        },
+        {
+            "name": "Link - User Management",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewSystemUsers\"]",
+            "description": "Link para User Management",
+            "columns": null
+        },
+        {
+            "name": "Link - Job",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewJobTitleList\"]",
+            "description": "Link para Job",
+            "columns": null
+        },
+        {
+            "name": "Link - Organization",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewOrganizationGeneralInformation\"]",
+            "description": "Link para Organization",
+            "columns": null
+        },
+        {
+            "name": "Link - Qualifications",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewSkills\"]",
+            "description": "Link para Qualifications",
+            "columns": null
+        },
+        {
+            "name": "Link - Nationalities",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/nationality\"]",
+            "description": "Link para Nationalities",
+            "columns": null
+        },
+        {
+            "name": "Link - Configuration",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewSystemConfiguration\"]",
+            "description": "Link para Configuration",
+            "columns": null
+        },
+        {
+            "name": "Link - PIM",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewPimModule\"]",
+            "description": "Link para PIM",
+            "columns": null
+        },
+        {
+            "name": "Link - Leave",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/leave/viewLeaveModule\"]",
+            "description": "Link para Leave",
+            "columns": null
+        },
+        {
+            "name": "Link - Time",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/time/viewTimeModule\"]",
+            "description": "Link para Time",
+            "columns": null
+        },
+        {
+            "name": "Link - Recruitment",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/recruitment/viewRecruitmentModule\"]",
+            "description": "Link para Recruitment",
+            "columns": null
+        },
+        {
+            "name": "Link - My Info",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewMyDetails\"]",
+            "description": "Link para My Info",
+            "columns": null
+        },
+        {
+            "name": "Link - Performance",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/performance/viewPerformanceModule\"]",
+            "description": "Link para Performance",
+            "columns": null
+        },
+        {
+            "name": "Link - Dashboard",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/dashboard/index\"]",
+            "description": "Link para Dashboard",
+            "columns": null
+        },
+        {
+            "name": "Link - Directory",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/directory/viewDirectory\"]",
+            "description": "Link para Directory",
+            "columns": null
+        },
+        {
+            "name": "Link - Maintenance",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/maintenance/viewMaintenanceModule\"]",
+            "description": "Link para Maintenance",
+            "columns": null
+        },
+        {
+            "name": "Link - Claim",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/claim/viewClaimModule\"]",
+            "description": "Link para Claim",
+            "columns": null
+        },
+        {
+            "name": "Link - Buzz",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/buzz/viewBuzz\"]",
+            "description": "Link para Buzz",
+            "columns": null
+        },
+        {
+            "name": "Link - Admin",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewAdminModule\"]",
+            "description": "Link para Admin",
+            "columns": null
+        },
+        {
+            "name": "Link - PIM",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewPimModule\"]",
+            "description": "Link para PIM",
+            "columns": null
+        },
+        {
+            "name": "Link - Leave",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/leave/viewLeaveModule\"]",
+            "description": "Link para Leave",
+            "columns": null
+        },
+        {
+            "name": "Link - Time",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/time/viewTimeModule\"]",
+            "description": "Link para Time",
+            "columns": null
+        },
+        {
+            "name": "Link - Recruitment",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/recruitment/viewRecruitmentModule\"]",
+            "description": "Link para Recruitment",
+            "columns": null
+        },
+        {
+            "name": "Link - My Info",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewMyDetails\"]",
+            "description": "Link para My Info",
+            "columns": null
+        },
+        {
+            "name": "Link - Performance",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/performance/viewPerformanceModule\"]",
+            "description": "Link para Performance",
+            "columns": null
+        },
+        {
+            "name": "Link - Dashboard",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/dashboard/index\"]",
+            "description": "Link para Dashboard",
+            "columns": null
+        },
+        {
+            "name": "Link - Directory",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/directory/viewDirectory\"]",
+            "description": "Link para Directory",
+            "columns": null
+        },
+        {
+            "name": "Link - Maintenance",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/maintenance/viewMaintenanceModule\"]",
+            "description": "Link para Maintenance",
+            "columns": null
+        },
+        {
+            "name": "Link - Claim",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/claim/viewClaimModule\"]",
+            "description": "Link para Claim",
+            "columns": null
+        },
+        {
+            "name": "Link - Buzz",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/buzz/viewBuzz\"]",
+            "description": "Link para Buzz",
+            "columns": null
+        },
+        {
+            "name": "Link - User Management",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewSystemUsers\"]",
+            "description": "Link para User Management",
+            "columns": null
+        },
+        {
+            "name": "Link - Job",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewJobTitleList\"]",
+            "description": "Link para Job",
+            "columns": null
+        },
+        {
+            "name": "Link - Organization",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewOrganizationGeneralInformation\"]",
+            "description": "Link para Organization",
+            "columns": null
+        },
+        {
+            "name": "Link - Qualifications",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewSkills\"]",
+            "description": "Link para Qualifications",
+            "columns": null
+        },
+        {
+            "name": "Link - Nationalities",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/nationality\"]",
+            "description": "Link para Nationalities",
+            "columns": null
+        },
+        {
+            "name": "Link - Configuration",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/admin/viewSystemConfiguration\"]",
+            "description": "Link para Configuration",
+            "columns": null
+        },
+        {
+            "name": "Link - PIM",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewPimModule\"]",
+            "description": "Link para PIM",
+            "columns": null
+        },
+        {
+            "name": "Link - Leave",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/leave/viewLeaveModule\"]",
+            "description": "Link para Leave",
+            "columns": null
+        },
+        {
+            "name": "Link - Time",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/time/viewTimeModule\"]",
+            "description": "Link para Time",
+            "columns": null
+        },
+        {
+            "name": "Link - Recruitment",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/recruitment/viewRecruitmentModule\"]",
+            "description": "Link para Recruitment",
+            "columns": null
+        },
+        {
+            "name": "Link - My Info",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/pim/viewMyDetails\"]",
+            "description": "Link para My Info",
+            "columns": null
+        },
+        {
+            "name": "Link - Performance",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/performance/viewPerformanceModule\"]",
+            "description": "Link para Performance",
+            "columns": null
+        },
+        {
+            "name": "Link - Dashboard",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/dashboard/index\"]",
+            "description": "Link para Dashboard",
+            "columns": null
+        },
+        {
+            "name": "Link - Directory",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/directory/viewDirectory\"]",
+            "description": "Link para Directory",
+            "columns": null
+        },
+        {
+            "name": "Link - Maintenance",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/maintenance/viewMaintenanceModule\"]",
+            "description": "Link para Maintenance",
+            "columns": null
+        },
+        {
+            "name": "Link - Claim",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/claim/viewClaimModule\"]",
+            "description": "Link para Claim",
+            "columns": null
+        },
+        {
+            "name": "Link - Buzz",
+            "type": "link",
+            "selector": "a[href=\"/web/index.php/buzz/viewBuzz\"]",
+            "description": "Link para Buzz",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 1 - Admin",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(1)",
+            "description": "Item de lista: Admin",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 2 - PIM",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(2)",
+            "description": "Item de lista: PIM",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 3 - Leave",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(3)",
+            "description": "Item de lista: Leave",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 4 - Time",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(4)",
+            "description": "Item de lista: Time",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 5 - Recruitment",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(5)",
+            "description": "Item de lista: Recruitment",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 6 - My Info",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(6)",
+            "description": "Item de lista: My Info",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 7 - Performance",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(7)",
+            "description": "Item de lista: Performance",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 8 - Dashboard",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(8)",
+            "description": "Item de lista: Dashboard",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 9 - Directory",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(9)",
+            "description": "Item de lista: Directory",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 10 - Maintenance",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(10)",
+            "description": "Item de lista: Maintenance",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 11 - Claim",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(11)",
+            "description": "Item de lista: Claim",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 12 - Buzz",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > aside > nav > div:nth-child(2) > ul > li:nth-child(12)",
+            "description": "Item de lista: Buzz",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 13 - TestF TestL",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > header > div:nth-child(1) > div:nth-child(3) > ul > li",
+            "description": "Item de lista: TestF TestL",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 14 - User Management",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > header > div:nth-child(2) > nav > ul > li:nth-child(1)",
+            "description": "Item de lista: User Management",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 15 - Job",
+            "type": "list_item",
+            "selector": "div:nth-child(1) > header > div:nth-child(2) > nav > ul > li:nth-child(2)",
+            "description": "Item de lista: Job",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 2 - Admin",
+            "type": "list_item",
+            "selector": "aside > nav > div:nth-child(2) > ul > li:nth-child(1) > a",
+            "description": "Item de lista: Admin",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 6 - PIM",
+            "type": "list_item",
+            "selector": "aside > nav > div:nth-child(2) > ul > li:nth-child(2) > a",
+            "description": "Item de lista: PIM",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 10 - Leave",
+            "type": "list_item",
+            "selector": "aside > nav > div:nth-child(2) > ul > li:nth-child(3) > a",
+            "description": "Item de lista: Leave",
+            "columns": null
+        },
+        {
+            "name": "Item Lista 14 - Time",
+            "type": "list_item",
+            "selector": "aside > nav > div:nth-child(2) > ul > li:nth-child(4) > a",
+            "description": "Item de lista: Time",
+            "columns": null
+        }
+    ],
+    "execution_time": 14.922173976898193,
+    "request_id": "a3cb223b-0d48-4061-9226-735e9b65dcec",
+    "timestamp": "2025-08-30T03:46:55.365401",
+    "detection_method": "Heurísticas Playwright",
+    "session_used": false
+}

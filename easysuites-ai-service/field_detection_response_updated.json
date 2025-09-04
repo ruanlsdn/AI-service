@@ -1,0 +1,74 @@
+{
+  "success": true,
+  "message": "Detecção concluída: 9 campos encontrados",
+  "fields": [
+    {
+      "name": "mat-input-1",
+      "type": "input",
+      "selector": "#mat-input-1",
+      "description": "Teor da comunicação",
+      "columns": null
+    },
+    {
+      "name": "mat-input-4",
+      "type": "input",
+      "selector": "#mat-input-4",
+      "description": "Nº de processo",
+      "columns": null
+    },
+    {
+      "name": "mat-input-5",
+      "type": "input",
+      "selector": "#mat-input-5",
+      "description": "Nome da parte",
+      "columns": null
+    },
+    {
+      "name": "mat-input-6",
+      "type": "input",
+      "selector": "#mat-input-6",
+      "description": "Nome do advogado",
+      "columns": null
+    },
+    {
+      "name": "mat-input-7",
+      "type": "input",
+      "selector": "#mat-input-7",
+      "description": "Nº da OAB",
+      "columns": null
+    },
+    {
+      "name": "mat-input-8",
+      "type": "input",
+      "selector": "#mat-input-8",
+      "description": "UF da OAB",
+      "columns": null
+    },
+    {
+      "name": "select_div___form___div___d",
+      "type": "select",
+      "selector": "div > form > div > div > div:nth-child(2) > select",
+      "description": "Tribunal",
+      "columns": null
+    },
+    {
+      "name": "select_div___form___div___d",
+      "type": "select",
+      "selector": "div > form > div > div > div:nth-child(3) > select",
+      "description": "Órgão",
+      "columns": null
+    },
+    {
+      "name": "select_div___form___div___d",
+      "type": "select",
+      "selector": "div > form > div > div > div:nth-child(4) > select",
+      "description": "Meio",
+      "columns": null
+    }
+  ],
+  "execution_time": 5.727914094924927,
+  "request_id": "f8185f55-611a-4c90-943c-63800ee888df",
+  "timestamp": "2025-09-04T03:52:17.527843",
+  "detection_method": "Heurísticas Playwright",
+  "session_used": false
+}
