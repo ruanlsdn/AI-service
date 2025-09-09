@@ -51,6 +51,7 @@ class DetectedField(BaseModel):
     selector: Optional[str] = Field(None, description="Seletor CSS legado (mantido para compatibilidade)")
     description: Optional[str] = Field(None, description="Descrição do que o campo representa")
     columns: Optional[List[str]] = Field(None, description="Nomes das colunas para tabelas ou listas")
+    options: Optional[List[Dict[str, str]]] = Field(None, description="Opções disponíveis para campos select/combobox (value e text)")
 
 
 class FieldDetectionResponse(BaseModel):
