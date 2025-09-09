@@ -411,7 +411,11 @@ class FieldDetectionService:
                 'input[type="time"]',
                 'input[type="checkbox"]',
                 'input[type="radio"]',
-                'input[type="file"]'
+                'input[type="file"]',
+                # Seletores específicos para Angular Material
+                'input.mat-datepicker-input',
+                'input[matinput]',
+                'input.mat-input-element'
             ]
             
             logger.debug(f"Detectando campos de entrada usando {len(input_selectors)} seletores")
@@ -727,6 +731,13 @@ class FieldDetectionService:
             # Extrair placeholder
             placeholder = attributes.get('placeholder')
             
+            # Extrair opções para campos select/combobox
+            options = None
+            if field_type == 'select':
+                logger.info(f"Extraindo opções do elemento select: {field_name}")
+                options = await self._extract_select_options(element)
+                logger.info(f"Opções extraídas: {len(options) if options else 0} opções")
+            
             field = DetectedField(
                 name=field_name,
                 type=field_type,
@@ -735,7 +746,8 @@ class FieldDetectionService:
                 placeholder=placeholder,
                 label=label,
                 selector=css_selector,  # Manter compatibilidade com versão anterior
-                description=text or placeholder or attributes.get('title') or label
+                description=text or placeholder or attributes.get('title') or label,
+                options=options
             )
             
             logger.debug(f"Campo criado com sucesso: '{label}' ({field_type})")
@@ -743,6 +755,65 @@ class FieldDetectionService:
             
         except Exception as e:
             logger.error(f"Erro crítico ao criar campo do elemento tipo '{field_type}': {str(e)}", exc_info=True)
+            return None
+    
+    async def _extract_select_options(self, select_element) -> Optional[List[Dict[str, str]]]:
+        """
+        Extrai todas as opções disponíveis de um elemento select.
+        
+        Args:
+            select_element: Elemento select do Playwright
+            
+        Returns:
+            Optional[List[Dict[str, str]]]: Lista de opções com 'value' e 'text', ou None se erro
+        """
+        try:
+            logger.debug("Iniciando extração de opções do select")
+            
+            # Buscar todos os elementos option dentro do select
+            option_elements = await select_element.query_selector_all('option')
+            logger.debug(f"Encontrados {len(option_elements)} elementos option")
+            
+            if not option_elements:
+                logger.debug("Nenhuma opção encontrada no select")
+                return None
+            
+            options = []
+            for i, option in enumerate(option_elements):
+                try:
+                    # Extrair value e text de cada option
+                    value = await option.get_attribute('value') or ''
+                    text = await option.inner_text()
+                    text = text.strip() if text else ''
+                    
+                    # Se não há text, usar o value como text
+                    if not text and value:
+                        text = value
+                    
+                    # Se não há value, usar o text como value
+                    if not value and text:
+                        value = text
+                    
+                    # Adicionar apenas se há pelo menos um dos dois
+                    if value or text:
+                        option_data = {
+                            'value': value,
+                            'text': text
+                        }
+                        options.append(option_data)
+                        logger.debug(f"Opção {i+1}: value='{value}', text='{text[:50]}...'")
+                    else:
+                        logger.debug(f"Opção {i+1} ignorada: sem value nem text")
+                        
+                except Exception as e:
+                    logger.debug(f"Erro ao processar opção {i+1}: {str(e)}")
+                    continue
+            
+            logger.debug(f"Extração concluída: {len(options)} opções válidas encontradas")
+            return options if options else None
+            
+        except Exception as e:
+            logger.error(f"Erro crítico ao extrair opções do select: {str(e)}", exc_info=True)
             return None
     
     async def _generate_unique_selector(self, element) -> str:

@@ -1,0 +1,566 @@
+{
+  "success": true,
+  "message": "Detec├º├úo conclu├¡da: 12 campos encontrados",
+  "fields": [
+    {
+      "name": "mat-input-1",
+      "type": "input",
+      "css_selector": "#mat-input-1",
+      "xpath": "//label[contains(text(),'Teor da comunica├º├úo')]/following::input[1]",
+      "placeholder": null,
+      "label": "Teor da comunica├º├úo",
+      "selector": "#mat-input-1",
+      "description": "Teor da comunica├º├úo",
+      "columns": null,
+      "options": null
+    },
+    {
+      "name": "mat-input-4",
+      "type": "input",
+      "css_selector": "#mat-input-4",
+      "xpath": "//label[contains(text(),'N┬║ de processo')]/following::input[1]",
+      "placeholder": null,
+      "label": "N┬║ de processo",
+      "selector": "#mat-input-4",
+      "description": "N┬║ de processo",
+      "columns": null,
+      "options": null
+    },
+    {
+      "name": "mat-input-5",
+      "type": "input",
+      "css_selector": "#mat-input-5",
+      "xpath": "//label[contains(text(),'Nome da parte')]/following::input[1]",
+      "placeholder": null,
+      "label": "Nome da parte",
+      "selector": "#mat-input-5",
+      "description": "Nome da parte",
+      "columns": null,
+      "options": null
+    },
+    {
+      "name": "mat-input-6",
+      "type": "input",
+      "css_selector": "#mat-input-6",
+      "xpath": "//label[contains(text(),'Nome do advogado')]/following::input[1]",
+      "placeholder": null,
+      "label": "Nome do advogado",
+      "selector": "#mat-input-6",
+      "description": "Nome do advogado",
+      "columns": null,
+      "options": null
+    },
+    {
+      "name": "mat-input-7",
+      "type": "input",
+      "css_selector": "#mat-input-7",
+      "xpath": "//label[contains(text(),'N┬║ da OAB')]/following::input[1]",
+      "placeholder": null,
+      "label": "N┬║ da OAB",
+      "selector": "#mat-input-7",
+      "description": "N┬║ da OAB",
+      "columns": null,
+      "options": null
+    },
+    {
+      "name": "mat-input-8",
+      "type": "input",
+      "css_selector": "#mat-input-8",
+      "xpath": "//label[contains(text(),'UF da OAB')]/following::input[1]",
+      "placeholder": null,
+      "label": "UF da OAB",
+      "selector": "#mat-input-8",
+      "description": "UF da OAB",
+      "columns": null,
+      "options": null
+    },
+    {
+      "name": "mat-input-2",
+      "type": "input",
+      "css_selector": "#mat-input-2",
+      "xpath": "//label[contains(text(),'Data inicial')]/following::input[1]",
+      "placeholder": null,
+      "label": "Data inicial",
+      "selector": "#mat-input-2",
+      "description": "Data inicial",
+      "columns": null,
+      "options": null
+    },
+    {
+      "name": "mat-input-3",
+      "type": "input",
+      "css_selector": "#mat-input-3",
+      "xpath": "//label[contains(text(),'Data final')]/following::input[1]",
+      "placeholder": null,
+      "label": "Data final",
+      "selector": "#mat-input-3",
+      "description": "Data final",
+      "columns": null,
+      "options": null
+    },
+    {
+      "name": "mat-input-9",
+      "type": "input",
+      "css_selector": "#mat-input-9",
+      "xpath": "//input[@placeholder=\"Pesquisa (Ctrl + Alt + 3)\"]",
+      "placeholder": "Pesquisa (Ctrl + Alt + 3)",
+      "label": "Pesquisa (Ctrl + Alt + 3)",
+      "selector": "#mat-input-9",
+      "description": "Pesquisa (Ctrl + Alt + 3)",
+      "columns": null,
+      "options": null
+    },
+    {
+      "name": "select_div___form___div___d",
+      "type": "select",
+      "css_selector": "div > form > div > div > div:nth-child(2) > select",
+      "xpath": "//select/select[1]",
+      "placeholder": "Tribunal",
+      "label": "Tribunal",
+      "selector": "div > form > div > div > div:nth-child(2) > select",
+      "description": "Tribunal",
+      "columns": null,
+      "options": [
+        {
+          "value": "0: null",
+          "text": "Todas as institui├º├Áes"
+        },
+        {
+          "value": "1: CNJ",
+          "text": "CNJ - Conselho Nacional de Justi├ºa"
+        },
+        {
+          "value": "2: PJeCor",
+          "text": "PJeCor - Corregedorias"
+        },
+        {
+          "value": "3: SEEU",
+          "text": "Sistema Eletr├┤nico de Execu├º├úo Unificado"
+        },
+        {
+          "value": "4: CJF",
+          "text": "CJF - Conselho da Justi├ºa Federal"
+        },
+        {
+          "value": "5: CSJT",
+          "text": "CSJT - Conselho Superior da Justi├ºa do Trabalho"
+        },
+        {
+          "value": "6: STF",
+          "text": "STF - Supremo Tribunal Federal"
+        },
+        {
+          "value": "7: STJ",
+          "text": "STJ - Superior Tribunal de Justi├ºa"
+        },
+        {
+          "value": "8: STM",
+          "text": "STM - Superior Tribunal Militar"
+        },
+        {
+          "value": "9: TJAC",
+          "text": "TJAC - Tribunal de Justi├ºa do Acre"
+        },
+        {
+          "value": "10: TJAL",
+          "text": "TJAL - Tribunal de Justi├ºa de Alagoas"
+        },
+        {
+          "value": "11: TJAM",
+          "text": "TJAM - Tribunal de Justi├ºa do Amazonas"
+        },
+        {
+          "value": "12: TJAP",
+          "text": "TJAP - Tribunal de Justi├ºa do Amap├í"
+        },
+        {
+          "value": "13: TJBA",
+          "text": "TJBA - Tribunal de Justi├ºa da Bahia"
+        },
+        {
+          "value": "14: TJCE",
+          "text": "TJCE - Tribunal de Justi├ºa do Cear├í"
+        },
+        {
+          "value": "15: TJDFT",
+          "text": "TJDFT - Tribunal de Justi├ºa do Distrito Federal e Territ├│rios"
+        },
+        {
+          "value": "16: TJES",
+          "text": "TJES - Tribunal de Justi├ºa do Esp├¡rito Santo"
+        },
+        {
+          "value": "17: TJGO",
+          "text": "TJGO - Tribunal de Justi├ºa de Goi├ís"
+        },
+        {
+          "value": "18: TJMA",
+          "text": "TJMA - Tribunal de Justi├ºa do Maranh├úo"
+        },
+        {
+          "value": "19: TJMG",
+          "text": "TJMG - Tribunal de Justi├ºa de Minas Gerais"
+        },
+        {
+          "value": "20: TJMMG",
+          "text": "TJMMG - Tribunal de Justi├ºa Militar do Estado de Minas Gerais"
+        },
+        {
+          "value": "21: TJMRS",
+          "text": "TJMRS - Tribunal de Justi├ºa Militar do Estado do Rio Grande do sul"
+        },
+        {
+          "value": "22: TJMS",
+          "text": "TJMS - Tribunal de Justi├ºa do Mato Grosso do Sul"
+        },
+        {
+          "value": "23: TJMSP",
+          "text": "TJMSP - Tribunal de Justi├ºa Militar do Estado de S├úo Paulo"
+        },
+        {
+          "value": "24: TJMT",
+          "text": "TJMT - Tribunal de Justi├ºa do Mato Grosso"
+        },
+        {
+          "value": "25: TJPA",
+          "text": "TJPA - Tribunal de Justi├ºa do Par├í"
+        },
+        {
+          "value": "26: TJPB",
+          "text": "TJPB - Tribunal de Justi├ºa da Para├¡ba"
+        },
+        {
+          "value": "27: TJPE",
+          "text": "TJPE - Tribunal de Justi├ºa de Pernambuco"
+        },
+        {
+          "value": "28: TJPI",
+          "text": "TJPI - Tribunal de Justi├ºa do Piau├¡"
+        },
+        {
+          "value": "29: TJPR",
+          "text": "TJPR - Tribunal de Justi├ºa do Paran├í"
+        },
+        {
+          "value": "30: TJRJ",
+          "text": "TJRJ - Tribunal de Justi├ºa do Rio de Janeiro"
+        },
+        {
+          "value": "31: TJRN",
+          "text": "TJRN - Tribunal de Justi├ºa do Rio Grande do Norte"
+        },
+        {
+          "value": "32: TJRO",
+          "text": "TJRO - Tribunal de Justi├ºa de Rond├┤nia"
+        },
+        {
+          "value": "33: TJRR",
+          "text": "TJRR - Tribunal de Justi├ºa de Roraima"
+        },
+        {
+          "value": "34: TJRS",
+          "text": "TJRS - Tribunal de Justi├ºa do Rio Grande do Sul"
+        },
+        {
+          "value": "35: TJSC",
+          "text": "TJSC - Tribunal de Justi├ºa de Santa Catarina"
+        },
+        {
+          "value": "36: TJSE",
+          "text": "TJSE - Tribunal de Justi├ºa de Sergipe"
+        },
+        {
+          "value": "37: TJSP",
+          "text": "TJSP - Tribunal de Justi├ºa de S├úo Paulo"
+        },
+        {
+          "value": "38: TJTO",
+          "text": "TJTO - Tribunal de Justi├ºa do Estado de Tocantins"
+        },
+        {
+          "value": "39: TRE-AC",
+          "text": "TRE-AC - Tribunal Regional Eleitoral do Acre"
+        },
+        {
+          "value": "40: TRE-AL",
+          "text": "TRE-AL - Tribunal Regional Eleitoral de Alagoas"
+        },
+        {
+          "value": "41: TRE-AM",
+          "text": "TRE-AM - Tribunal Regional Eleitoral do Amazonas"
+        },
+        {
+          "value": "42: TRE-AP",
+          "text": "TRE-AP - Tribunal Regional Eleitoral do Amap├í"
+        },
+        {
+          "value": "43: TRE-BA",
+          "text": "TRE-BA - Tribunal Regional Eleitoral da Bahia"
+        },
+        {
+          "value": "44: TRE-CE",
+          "text": "TRE-CE - Tribunal Regional Eleitoral do Cear├í"
+        },
+        {
+          "value": "45: TRE-DF",
+          "text": "TRE-DF - Tribunal Regional Eleitoral do Distrito Federal e Territ├│rios"
+        },
+        {
+          "value": "46: TRE-ES",
+          "text": "TRE-ES - Tribunal Regional Eleitoral do Esp├¡rito Santo"
+        },
+        {
+          "value": "47: TRE-GO",
+          "text": "TRE-GO - Tribunal Regional Eleitoral de Goi├ís"
+        },
+        {
+          "value": "48: TRE-MA",
+          "text": "TRE-MA - Tribunal Regional Eleitoral do Maranh├úo"
+        },
+        {
+          "value": "49: TRE-MG",
+          "text": "TRE-MG - Tribunal Regional Eleitoral de Minas Gerais"
+        },
+        {
+          "value": "50: TRE-MS",
+          "text": "TRE-MS - Tribunal Regional Eleitoral do Mato Grosso do Sul"
+        },
+        {
+          "value": "51: TRE-MT",
+          "text": "TRE-MT - Tribunal Regional Eleitoral do do Mato Grosso"
+        },
+        {
+          "value": "52: TRE-PA",
+          "text": "TRE-PA - Tribunal Regional Eleitoral do do Par├í"
+        },
+        {
+          "value": "53: TRE-PB",
+          "text": "TRE-PB - Tribunal Regional Eleitoral da Para├¡ba"
+        },
+        {
+          "value": "54: TRE-PE",
+          "text": "TRE-PE - Tribunal Regional Eleitoral de Pernambuco"
+        },
+        {
+          "value": "55: TRE-PI",
+          "text": "TRE-PI - Tribunal Regional Eleitoral do Piau├¡"
+        },
+        {
+          "value": "56: TRE-PR",
+          "text": "TRE-PR - Tribunal Regional Eleitoral do Paran├í"
+        },
+        {
+          "value": "57: TRE-RJ",
+          "text": "TRE-RJ - Tribunal Regional Eleitoral do Rio de Janeiro"
+        },
+        {
+          "value": "58: TRE-RN",
+          "text": "TRE-RN - Tribunal Regional Eleitoral do Rio Grande do Norte"
+        },
+        {
+          "value": "59: TRE-RO",
+          "text": "TRE-RO - Tribunal Regional Eleitoral de Rond├┤nia"
+        },
+        {
+          "value": "60: TRE-RR",
+          "text": "TRE-RR - Tribunal Regional Eleitoral de Roraima"
+        },
+        {
+          "value": "61: TRE-RS",
+          "text": "TRE-RS - Tribunal Regional Eleitoral do Rio Grande do Sul"
+        },
+        {
+          "value": "62: TRE-SC",
+          "text": "TRE-SC - Tribunal Regional Eleitoral de Santa Catarina"
+        },
+        {
+          "value": "63: TRE-SE",
+          "text": "TRE-SE - Tribunal Regional Eleitoral de Sergipe"
+        },
+        {
+          "value": "64: TRE-SP",
+          "text": "TRE-SP - Tribunal Regional Eleitoral de S├úo Paulo"
+        },
+        {
+          "value": "65: TRE-TO",
+          "text": "TRE-TO - Tribunal Regional Eleitoral de Tocantins"
+        },
+        {
+          "value": "66: TRF1",
+          "text": "TRF1 - Tribunal Regional Federal da 1┬¬ Regi├úo"
+        },
+        {
+          "value": "67: TRF2",
+          "text": "TRF2 - Tribunal Regional Federal da 2┬¬ Regi├úo"
+        },
+        {
+          "value": "68: TRF3",
+          "text": "TRF3 - Tribunal Regional Federal da 3┬¬ Regi├úo"
+        },
+        {
+          "value": "69: TRF4",
+          "text": "TRF4 - Tribunal Regional Federal da 4┬¬ Regi├úo"
+        },
+        {
+          "value": "70: TRF5",
+          "text": "TRF5 - Tribunal Regional Federal da 5┬¬ Regi├úo"
+        },
+        {
+          "value": "71: TRF6",
+          "text": "TRF6 - Tribunal Regional Federal da 6┬¬ Regi├úo"
+        },
+        {
+          "value": "72: TRT1",
+          "text": "TRT1 - Tribunal Regional do Trabalho da 1┬¬ Regi├úo"
+        },
+        {
+          "value": "73: TRT10",
+          "text": "TRT10 - Tribunal Regional do Trabalho da 10┬¬ Regi├úo"
+        },
+        {
+          "value": "74: TRT11",
+          "text": "TRT11 - Tribunal Regional do Trabalho da 11┬¬ Regi├úo"
+        },
+        {
+          "value": "75: TRT12",
+          "text": "TRT12 - Tribunal Regional do Trabalho da 12┬¬ Regi├úo"
+        },
+        {
+          "value": "76: TRT13",
+          "text": "TRT13 - Tribunal Regional do Trabalho da 13┬¬ Regi├úo"
+        },
+        {
+          "value": "77: TRT14",
+          "text": "TRT14 - Tribunal Regional do Trabalho da 14┬¬ Regi├úo"
+        },
+        {
+          "value": "78: TRT15",
+          "text": "TRT15 - Tribunal Regional do Trabalho da 15┬¬ Regi├úo"
+        },
+        {
+          "value": "79: TRT16",
+          "text": "TRT16 - Tribunal Regional do Trabalho da 16┬¬ Regi├úo"
+        },
+        {
+          "value": "80: TRT17",
+          "text": "TRT17 - Tribunal Regional do Trabalho da 17┬¬ Regi├úo"
+        },
+        {
+          "value": "81: TRT18",
+          "text": "TRT18 - Tribunal Regional do Trabalho da 18┬¬ Regi├úo"
+        },
+        {
+          "value": "82: TRT19",
+          "text": "TRT19 - Tribunal Regional do Trabalho da 19┬¬ Regi├úo"
+        },
+        {
+          "value": "83: TRT2",
+          "text": "TRT2 - Tribunal Regional do Trabalho da 2┬¬ Regi├úo"
+        },
+        {
+          "value": "84: TRT20",
+          "text": "TRT20 - Tribunal Regional do Trabalho da 20┬¬ Regi├úo"
+        },
+        {
+          "value": "85: TRT21",
+          "text": "TRT21 - Tribunal Regional do Trabalho da 21┬¬ Regi├úo"
+        },
+        {
+          "value": "86: TRT22",
+          "text": "TRT22 - Tribunal Regional do Trabalho da 22┬¬ Regi├úo"
+        },
+        {
+          "value": "87: TRT23",
+          "text": "TRT23 - Tribunal Regional do Trabalho da 23┬¬ Regi├úo"
+        },
+        {
+          "value": "88: TRT24",
+          "text": "TRT24 - Tribunal Regional do Trabalho da 24┬¬ Regi├úo"
+        },
+        {
+          "value": "89: TRT3",
+          "text": "TRT3 - Tribunal Regional do Trabalho da 3┬¬ Regi├úo"
+        },
+        {
+          "value": "90: TRT4",
+          "text": "TRT4 - Tribunal Regional do Trabalho da 4┬¬ Regi├úo"
+        },
+        {
+          "value": "91: TRT5",
+          "text": "TRT5 - Tribunal Regional do Trabalho da 5┬¬ Regi├úo"
+        },
+        {
+          "value": "92: TRT6",
+          "text": "TRT6 - Tribunal Regional do Trabalho da 6┬¬ Regi├úo"
+        },
+        {
+          "value": "93: TRT7",
+          "text": "TRT7 - Tribunal Regional do Trabalho da 7┬¬ Regi├úo"
+        },
+        {
+          "value": "94: TRT8",
+          "text": "TRT8 - Tribunal Regional do Trabalho da 8┬¬ Regi├úo"
+        },
+        {
+          "value": "95: TRT9",
+          "text": "TRT9 - Tribunal Regional do Trabalho da 9┬¬ Regi├úo"
+        },
+        {
+          "value": "96: TSE",
+          "text": "TSE - Tribunal Superior Eleitoral"
+        },
+        {
+          "value": "97: TST",
+          "text": "TST - Tribunal Superior do Trabalho"
+        }
+      ]
+    },
+    {
+      "name": "select_div___form___div___d",
+      "type": "select",
+      "css_selector": "div > form > div > div > div:nth-child(3) > select",
+      "xpath": "//select/select[1]",
+      "placeholder": "├ôrg├úo",
+      "label": "├ôrg├úo",
+      "selector": "div > form > div > div > div:nth-child(3) > select",
+      "description": "├ôrg├úo",
+      "columns": null,
+      "options": [
+        {
+          "value": "0: null",
+          "text": "Todos os ├│rg├úos"
+        }
+      ]
+    },
+    {
+      "name": "select_div___form___div___d",
+      "type": "select",
+      "css_selector": "div > form > div > div > div:nth-child(4) > select",
+      "xpath": "//select/select[1]",
+      "placeholder": "Meio",
+      "label": "Meio",
+      "selector": "div > form > div > div > div:nth-child(4) > select",
+      "description": "Meio",
+      "columns": null,
+      "options": [
+        {
+          "value": "0: null",
+          "text": "Todos os meios"
+        },
+        {
+          "value": "1: E",
+          "text": "Plataforma de Editais"
+        },
+        {
+          "value": "2: D",
+          "text": "Di├írio de Justi├ºa Eletr├┤nico"
+        }
+      ]
+    }
+  ],
+  "execution_time": 8.241393566131592,
+  "request_id": "f8ac7019-6353-4118-adaf-a0981912f378",
+  "timestamp": "2025-09-07T03:57:21.892622",
+  "detection_method": "Heur├¡sticas Playwright",
+  "session_used": false
+}
